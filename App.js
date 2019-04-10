@@ -16,13 +16,14 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-const Header = require('./header');
 
 // type Props = {};
 export default class App extends Component {
   render() {
     return (
-      <Header ></Header>
+      <View>
+        <Text>123</Text>
+      </View>
     )
   }
 }
